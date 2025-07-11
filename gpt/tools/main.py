@@ -4,7 +4,7 @@ from openai import OpenAI
 import re
 import httpx
 import json
-from messages import system_message, system_message_2
+from gpt.tools.messages1 import system_message, system_message_2
 from search import main as search_db
 from pdf2json_chunked import main as pdf2json_chunked
 from fullcontext import main as full_document_search
